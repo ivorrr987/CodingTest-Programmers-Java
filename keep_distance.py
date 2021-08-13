@@ -9,8 +9,6 @@ def solution(places):
         place.insert(0,'EEEEEEE')
         place.append('EEEEEEE')
 
-    print(places)
-
     for i in range(5):
         for j in range(1,6):
             for k in range(1,6):
